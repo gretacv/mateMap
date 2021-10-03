@@ -1,7 +1,6 @@
-citing = read.csv("/Users/gretacvega/Documents/GitHub/vizzWork/mate/citing.csv")
+citing = read.csv("mate/citing.csv")
 citing
-#collab = read.table("/Users/gretacvega/Documents/GitHub/mate/collab.txt", h = T, sep ="\t")
-collab = read.csv("/Users/gretacvega/Documents/GitHub/vizzWork/mate/collab.csv")
+collab = read.csv("mate/collab.csv")
 head(collab)
 
 

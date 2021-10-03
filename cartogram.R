@@ -2,11 +2,11 @@
 #https://www.r-graph-gallery.com/a-smooth-transition-between-chloropleth-and-cartogram.html
 # https://rdrr.io/cran/tmap/man/tm_polygons.html
 # https://rpubs.com/ials2un/hunger1
-#citing = read.table("/Users/gretacvega/Documents/GitHub/mate/citing.txt", h = T, sep ="\t")
-citing = read.csv("/Users/gretacvega/Documents/GitHub/vizzWork/mate/citing.csv")
+
+citing = read.csv("mate/citing.csv")
 citing
 #collab = read.table("/Users/gretacvega/Documents/GitHub/mate/collab.txt", h = T, sep ="\t")
-collab = read.csv("/Users/gretacvega/Documents/GitHub/vizzWork/mate/collab.csv")
+collab = read.csv("mate/collab.csv")
 head(collab)
 
 
